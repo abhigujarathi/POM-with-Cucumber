@@ -1,0 +1,4 @@
+Feature: Login Page Feature
+
+Scenario: Login Page Title
+Given: user is on login page

@@ -1,0 +1,15 @@
+package com.qa.util;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class ConfigReader {
+	private Properties prop;
+	
+	
+	public void init_prop() {
+		prop= new Properties();
+		FileInputStream ip= new FileInputStream("/home/hp/Documents/Naveen Automation Labs/CucumberPOMSeries/src/test/java/config/config.properties");
+		}
+
+}

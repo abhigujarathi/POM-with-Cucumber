@@ -1,0 +1,23 @@
+package com.qa.util;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
+
+public class ConfigReader {
+	private Properties prop;
+	
+	
+	public void init_prop() {
+		prop= new Properties();
+		try {
+			FileInputStream ip= new FileInputStream("/home/hp/Documents/Naveen Automation Labs/CucumberPOMSeries/src/test/java/config/config.properties");
+			prop.load(ip);
+		
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		}
+
+}

@@ -1,0 +1,10 @@
+package AppHooks;
+
+import com.qa.factory.DriverFactory;
+
+public class ApplicationHooks {
+	
+	private DriverFactory driverfactory;
+	
+
+}

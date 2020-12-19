@@ -1,0 +1,6 @@
+Feature: Login Page Feature
+
+Scenario: Login Page Title
+Given user is on login page
+When 	user gets title of the page
+Then

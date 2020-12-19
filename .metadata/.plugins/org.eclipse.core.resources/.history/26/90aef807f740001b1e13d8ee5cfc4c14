@@ -1,0 +1,16 @@
+package AppHooks;
+
+import org.openqa.selenium.WebDriver;
+
+import com.qa.factory.DriverFactory;
+import com.qa.util.ConfigReader;
+
+public class ApplicationHooks {
+	
+	private DriverFactory driverFactory;
+	private WebDriver driver;
+	private ConfigReader configReader;
+	
+	
+
+}
