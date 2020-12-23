@@ -51,7 +51,7 @@ public class LoginPageSteps {
 	}
 
 	@When("user clicks on Login Button")
-	public void user_clicks_on_login_button() throws InterruptedException {
+	public void user_clicks_on_Login_Button() throws InterruptedException {
 		Thread.sleep(5000);
 		loginPage.Login();
 	    
